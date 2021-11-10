@@ -1,0 +1,331 @@
+
+
+
+
+/* nav auto appear when scrolling */
+
+body {
+  margin: 0;
+  background-color: rgba(208, 165, 203, 0.159);
+ 
+}
+
+
+.sec0ouss .sec0oussh1{
+  width: 600px;
+  margin: 10px auto;
+  position: absolute;
+  text-align: center;
+  margin-left: 300px;
+}
+
+.navimg1{
+  width: 100%;
+
+}
+
+.navimg1 img{
+  width: 100%;
+  margin-top: -69px;
+  opacity: 0.2;
+  position: relative;
+  top: 0;
+}
+.navimg2logo img{
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  width: 100px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+marquee{
+
+      color: #083c6a;
+      font-weight: bold;
+      margin-top: -28px;
+      position: absolute;
+      font-size: 15px;
+  }
+
+
+
+
+
+
+
+
+/* sec 1 */
+.sec1ouss{
+  background-color: rgba(137, 43, 226, 0.467);
+  width: 100%;
+  margin-top: 20px;
+  height: 600px;
+}
+.sec1ouss .sec1oussd1{
+  border: 2px solid black;
+  margin-top: 20px;
+}
+
+.sec11ouss{
+  background-color: rgba(137, 43, 226, 0.467);
+  width: 100%;
+  margin-top: 20px;
+  height: 600px;
+}
+
+.sec1oussd2 video{
+  width: 564px;
+  margin-top: 48px;
+}
+
+
+
+.row{
+  margin-right: 83px;
+    margin-left: 128px;
+}
+
+
+
+/* 
+.sec11oussd1{
+  width: 700px;
+} */
+
+
+
+
+
+/* /sec 1 */
+
+
+
+
+
+/* sec 2 */
+.sec2ouss{
+  background-color: rgba(194, 82, 190, 0.467);
+  width: 100%;
+  margin-top: 20px;
+  height: 600px;
+
+}
+
+
+/* sec 3 */
+.sec3ouss{
+  background-color: rgba(220, 213, 121, 0.467);
+  width: 100%;
+  margin-top: 20px;
+  height: 600px;
+}
+
+/* /sec 2 */
+ /* social media */
+
+  /* Style the Sticky icons social media on web page */
+  .stickyicon-list {
+    position: fixed;
+    top: 150px;
+    left: 10px;
+    transform: translateY(-50%);
+    z-index: 5;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+  }
+  .stickyicon-list a {
+    display: block;
+    padding: 8px;
+    transition: all 0.5s ease;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  /* HOver affect on sticky social media icons */
+  .stickyicon-list a:hover {
+    transform: scale(1.5, 1.3);
+  }
+
+  /* Now we have to design each icon of social media */
+  .facebook {
+    background: #3b5998;
+    color: white;
+    border-radius: 10px;
+  }
+
+
+  .linkedin {
+    background: #0e76a8;
+    color: white;
+    border-radius: 10px;
+  }
+
+
+.sec5social img{
+  border-radius: 20px;
+  width: 140px;
+}
+
+
+
+
+
+
+/* hover button */
+
+
+:root {
+  --fireColor1: #ff5000;
+  --fireColor2: rgba(255,80,0,0);
+  --fireDuration: 1s;
+  --blur: 0.4px;
+  --fireSize: 90px;
+  --smogColor1: rgb(49, 48, 48);
+  --smogColor2: rgba(255,80,0,0);
+  --smogDuration: 2s;
+  --smogSize: 120px;
+}
+
+
+#fire-container,
+#smog-container {
+  font-size: 24px;
+	filter: blur(var(--blur));
+	-webkit-filter: blur(var(--blur));
+	position: relative;
+	width: 10em;
+	height: 12em;
+}
+
+#fire-container .particle {
+	animation: rise var(--fireDuration) ease-in infinite;
+	background-image: radial-gradient(var(--fireColor1) 30%,var(--fireColor2) 70%);
+	border-radius: 50%;
+	mix-blend-mode: screen;
+	opacity: 0;
+	position: absolute;
+	bottom: 0;
+	width: var(--fireSize);
+	height: var(--fireSize);
+}
+
+#smog-container .particle {
+	animation: rise var(--smogDuration) ease-in infinite;
+	background-image: radial-gradient(var(--smogColor1) 30%,var(--smogColor2) 70%);
+	border-radius: 50%;
+	mix-blend-mode: screen;
+	opacity: 0;
+	position: absolute;
+	bottom: 0;
+	width: var(--smogSize);
+	height: var(--smogSize);
+}
+
+#buttons {
+  /* display: flex; */
+  position: relative;
+  /* justify-content: center; */
+  
+}
+
+button {
+  margin: 10px;
+  width: 200px;
+  height: 50px;
+  border-radius: 30px;
+  position: absolute;
+  bottom: 0px;
+  font-weight: 900;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+  font-family: system-ui;
+  -webkit-box-shadow: 0px 15px 24px -9px rgba(255,255,255,0.2); 
+  box-shadow: 0px 15px 24px -9px rgba(255,255,255,0.2);
+}
+
+#yeah,
+#nah {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#confirm {
+  background-color: #fd6408;
+  color: #313131;
+  transition: all 0.8s;
+}
+
+#confirm:hover {
+  background-color: rgba(255,255,255,0);
+  box-shadow: none; 
+  color: #fd6408;
+}
+
+#nah {
+  position: relative;
+  width: 300px;
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#cancel {
+  background-color: #e9e9e9;
+  color: #313131;
+  transition: all 0.8s;
+}
+
+#cancel:hover {
+  background-color: rgba(255,255,255,0);
+  box-shadow: none; 
+  color: #ffffff;
+}
+
+@keyframes rise {
+	from {
+		opacity: 0;
+		transform: translateY(0) scale(1);
+	}
+	25% {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+		transform: translateY(-10em) scale(0);
+	}
+}
+
+@keyframes fly-away {
+  0% {
+    opacity: 1;
+    filter: blur(1px);
+  }
+
+  100% {
+    transform: scale(0.3);
+    opacity: 0;
+    filter: blur(20px);
+    border-radius: 50%;
+  }
+}
+
+
+
+.welsec1 div{
+
+  text-align: center;
+margin-top: 16px;
+border: 2px solid bl;
+}
+
+
+.sec5social  img title{
+  background-color: red;
+}
