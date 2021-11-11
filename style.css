@@ -191,8 +191,7 @@ marquee{
 }
 
 
-#fire-container,
-#smog-container {
+#fire-container {
   font-size: 24px;
 	filter: blur(var(--blur));
 	-webkit-filter: blur(var(--blur));
@@ -213,17 +212,6 @@ marquee{
 	height: var(--fireSize);
 }
 
-#smog-container .particle {
-	animation: rise var(--smogDuration) ease-in infinite;
-	background-image: radial-gradient(var(--smogColor1) 30%,var(--smogColor2) 70%);
-	border-radius: 50%;
-	mix-blend-mode: screen;
-	opacity: 0;
-	position: absolute;
-	bottom: 0;
-	width: var(--smogSize);
-	height: var(--smogSize);
-}
 
 #buttons {
   /* display: flex; */
@@ -248,8 +236,7 @@ button {
   box-shadow: 0px 15px 24px -9px rgba(255,255,255,0.2);
 }
 
-#yeah,
-#nah {
+#yeah {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -267,26 +254,7 @@ button {
   color: #fd6408;
 }
 
-#nah {
-  position: relative;
-  width: 300px;
-  min-height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
-#cancel {
-  background-color: #e9e9e9;
-  color: #313131;
-  transition: all 0.8s;
-}
-
-#cancel:hover {
-  background-color: rgba(255,255,255,0);
-  box-shadow: none; 
-  color: #ffffff;
-}
 
 @keyframes rise {
 	from {
@@ -398,5 +366,32 @@ body{
         /* right: -400px; */
     }
 
+
+
+
+
+/* input font size */
+#inputGroupSelect02{
+  font-size: 20px;
+}
+/* input font size */
+.input-group-text{
+  font-size: 20px;
+}
+.item {
+  direction: rtl;
+}
+html, body, .carousel, .carousel-inner, .carousel-inner .item{
+  font-size: 15px;
+}
+/* 
+#value:hover{
+  color: red;
+  background-color: blue !important;
+
+} */
+#inputGroupSelect02 #value:hover{
+  background-color: blue;
+}
 
 /* /carousal */

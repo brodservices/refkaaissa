@@ -7,3 +7,10 @@ jQuery(window).load(function() {
     $('.carousel').carousel('pause');
  
 });
+
+
+
+
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Hello World";
+}
