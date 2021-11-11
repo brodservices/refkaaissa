@@ -316,7 +316,15 @@ button {
   }
 }
 
-
+.profid{
+  position: absolute;
+  font-size: 10px;
+  opacity: 0.4;
+  direction: rtl;
+  top: 10px;
+  margin-left: 20px;
+  text-align: center;
+}
 
 .welsec1 div{
 
