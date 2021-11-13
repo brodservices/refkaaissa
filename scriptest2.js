@@ -16,15 +16,20 @@ function myFunction() {
 
 var questions = [
   {
-    question: "ما نوع التكرار الذي استخدم في المقطع البرمجي ؟؟",
+    question: "ما نوع التكرار الذي استخدم في الفيديو ؟؟",
     choices: ["	التكرار اللانهائي", "	التكرار المحدد", "	التكرار الشرطي"],
     correctAnswer: 0,
   },
   {
     question: "ماذا يعني التكرار اللانهائي باللغة الإنجليزية",
     choices: ["	Counted Loop", "	While loop", "	Infinite loop"],
-    correctAnswer: 1,
+    correctAnswer: 2,
   },
+  {
+  question: "ماهو نوع الكسر الذي يتكرر الى ما لانهاية  و درسناه في مادة الرياضيات",
+  choices: ["	 الكسر العشري الدوري ", "	الكسر الثلاثي", "	الكسر المحدد  "],
+  correctAnswer: 0,
+},
   // {
   //   question: "متى توقف الكائن ?",
   //   choices: ['	عندما لمس الكائن "Jaime"', "	لم يتوقف", "	تحرك خطوتين ثم توقف"],
